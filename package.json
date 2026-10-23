@@ -1,0 +1,24 @@
+{
+  "name": "b2b-helpdesk-sla-kanban",
+  "version": "1.0.0",
+  "description": "B2B Helpdesk & SLA Kanban Board - Assistenza Tecnica Enterprise",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "helpdesk",
+    "sla",
+    "kanban",
+    "rest",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
+
