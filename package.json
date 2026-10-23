@@ -1,0 +1,31 @@
+{
+  "name": "b2b-helpdesk-sla-kanban",
+  "version": "1.0.0",
+  "description": "B2B Helpdesk & SLA Kanban Board - React Enterprise Application",
+  "main": "server.js",
+  "scripts": {
+    "build": "esbuild src/index.jsx --bundle --outfile=public/bundle.js --loader:.jsx=jsx",
+    "watch": "esbuild src/index.jsx --bundle --outfile=public/bundle.js --loader:.jsx=jsx --watch",
+    "start": "npm run build && node server.js",
+    "dev": "npm run build && node server.js"
+  },
+  "keywords": [
+    "react",
+    "helpdesk",
+    "sla",
+    "kanban",
+    "rest",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
